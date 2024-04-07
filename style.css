@@ -294,6 +294,10 @@ section {
   flex-direction: column;
 }
 
+#about{
+  flex-direction: column;
+}
+
 .about-containers,
 .about-details-container {
   display: flex;
@@ -378,6 +382,11 @@ article .icon {
   position: relative;
 }
 
+#project{
+  display: grid;
+  grid: 500px / auto auto;
+}
+
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
@@ -385,8 +394,9 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
+ 
 }
 
 .project-title {
@@ -402,6 +412,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  margin-top: 400px;
   display: flex;
   justify-content: center;
   flex-direction: column;
